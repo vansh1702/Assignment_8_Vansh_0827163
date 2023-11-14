@@ -1,0 +1,72 @@
+﻿body {
+    background-color: rgba(255, 243, 178, 0.85) !important;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+    body {
+        background-color: rgb(127, 221, 252);
+    }
+}
+
+/* Medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        background-color: rgb(150, 255, 150);
+    }
+}
+
+/* Large screens */
+@media (min-width: 769px) {
+    body {
+        background-color: rgb(255, 255, 136);
+    }
+}
+
+
+/**********************
+2. Heading Styles
+**********************/
+
+h1 {
+    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(70, 43, 22);
+    text-align: center;
+    margin: 15px 10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(37, 23, 12);
+    text-align: center;
+    margin: 15px 10px;
+}
+
+/**********************
+3. Main Body Styles
+**********************/
+
+
+
+
+
+p {
+    text-align: justify;
+    line-height: 1;
+    font-size: 1.2em;
+    color: rgb(3, 54, 24);
+}
+
+/**********************
+4. Footer Styles
+**********************/
+
+footer {
+    height: 48px;
+    background-color: rgb(226, 204, 252);
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 30px 30px;
+}
